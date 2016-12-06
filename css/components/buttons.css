@@ -1,0 +1,15 @@
+.btn-pink {
+  /*background: rgb(235, 0, 126);*/
+  color: #fff;
+  background-color: white;
+  color: rgb(235, 0, 126);
+  border: 2px solid rgb(235, 0, 126);
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.btn-pink:hover{
+  background-color: rgb(235, 0, 126);
+  color: white;
+}
+
