@@ -5,6 +5,7 @@
 @import url("components/buttons.css");
 @import url("components/form.css");
 @import url("components/login.css");
+@import url("components/modal.css");
 
 body {
   margin: 0;
