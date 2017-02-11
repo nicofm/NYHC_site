@@ -17,8 +17,8 @@
     <img src="images/NYHC_logoWHITE.png" id="" ="logo" alt="" width="300">
     <div class="banner-content">
       <h1>The NEW YORK HARDCORE CHRONICLES Film <br>
-      a film by DREW STONE</h1>
-      <p>Director Drew Stone’s The New York Chronicles Film is an incredible journey thru the community and culture of the iconic New York hardcore scene that is still vibrant, relevant and going strong to this day. Not the typical history of a local music scene but so much more. Shot in an episodic formant the film contains over 60 interviews, never before seen footage, photos and a blazing soundtrack. Buy the ticket and take the ride!</p>
+        a film by DREW STONE</h1>
+        <p>Director Drew Stone’s The New York Chronicles Film is an incredible journey thru the community and culture of the iconic New York hardcore scene that is still vibrant, relevant and going strong to this day. Not the typical history of a local music scene but so much more. Shot in an episodic formant the film contains over 60 interviews, never before seen footage, photos and a blazing soundtrack. Buy the ticket and take the ride!</p>
       <!--button type="button" class="btn btn-bann btn-lg" data-toggle="modal" data-target=".bs-example-modal-lg">View the trailer</button>
 
       <!-- Button HTML (to Trigger Modal) -->
@@ -26,28 +26,11 @@
 
       <!-- Modal HTML -->
       <div id="myModal" class="modal fade">
-          <div class="modal-dialog">
-              <div class="modal-content">
-                  <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                      <h4 class="modal-title">The New York Hardcore Chronicles Trailer</h4>
-                  </div>
-                  <div class="modal-body">
-
-                    <iframe width="560" height="315" src="https://youtu.be/vvGnjFCVYSk" frameborder="0" allowfullscreen></iframe>
-                  </div>
-              </div>
-          </div>
-      </div>
-
-
-      <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-        <div class="modal-dialog modal-lg" role="document">
-          <div class="modal-content">
-            <iframe id="trailer" width="560" height="315" src="https://youtu.be/vvGnjFCVYSk" frameborder="0" allowfullscreen></iframe>
-          </div>
+        <div class="modal-dialog">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/vvGnjFCVYSk" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
+
     </div>
   </div>
 
@@ -59,9 +42,24 @@
             <img src="images/drew_stone.jpg" alt="" class="avatar">
             <h2>The Director</h2>
             <p>Drew Stone is an American film director, producer, editor and musician. His works include music videos, commercials, documentary films and television...</p>
-            <button type="button" class="btn btn-default">Read more</button>
+            <button type="button" class="btn btn-default" data-toggle="modal" data-target="#director">Read more</button>
+            <!-- Small modal -->
+
+            <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" id="director">
+              <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                  <h3 class="modal-title">
+                    The director
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati mollitia nesciunt, natus accusantium ullam laboriosam, at nostrum dolores dignissimos eius, repellendus, eos asperiores animi distinctio.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+
         <div class="col-xs-12 col-sm-6 col-md-3">
           <div class="icon-explanation">
             <img src="images/NYHC_logo.png" alt="" class="avatar">
@@ -96,43 +94,51 @@
       <div class="row">
         <div class="col-xs-12 col-sm-3">
           <div class="card" style="background: linear-gradient(-225deg, rgba(64,64,64,0.9) 10%, rgba(0,0,0,0.6) 70%), url('images/Agnostic_Front.jpg');">
-            <div class="card-category">Agnostic Front</div>
-            <div class="card-description">
+            <div class="card-headers">
+              <div class="card-category">Agnostic Front</div>
               <h2>Roger Miret</h2>
+            </div>
+            <img class="card-user avatar avatar-small" src="images/roger_miret.jpg">
+            <div class="card-description">
               <p>"I think they used us for this whole gentrification, we were the first one’s here, we had to deal with the gangs that were here. Nobody ever walked down to Ave’s B, C or D, nobody would ever go that way, but we did."</p>
             </div>
-            <img class="card-user avatar avatar-large" src="images/roger_miret.jpg">
           </div>
         </div>
         <div class="col-xs-12 col-sm-3">
           <div class="card" style="background: linear-gradient(-225deg, rgba(64,64,64,0.9) 10%, rgba(0,0,0,0.6) 70%), url('images/sod.jpg');">
-            <div class="card-category">The Psychos / S.O.D. / M.O.D.</div>
-            <div class="card-description">
+            <div class="card-headers">
+              <div class="card-category">The Psychos / S.O.D. / M.O.D.</div>
               <h2>Billy Milano</h2>
+            </div>
+            <img class="card-user avatar avatar-small" src="images/billy_milano.jpg">
+            <div class="card-description">
               <p>"For me hardcore is in my soul and NYHC lives forever It’s not either or not you are a part of it or living vicariously thru it. The fact is I was there, I’ve seen it and it’s eternal."</p>
             </div>
-            <img class="card-user avatar avatar-large" src="images/billy_milano.jpg">
           </div>
         </div>
         <div class="col-xs-12 col-sm-3">
           <div class="card" style="background: linear-gradient(-225deg, rgba(64,64,64,0.9) 10%, rgba(0,0,0,0.6) 70%), url('images/judge.jpg');">
-            <div class="card-category">Judge</div>
-            <div class="card-description">
+            <div class="card-headers">
+              <div class="card-category">Judge</div>
               <h2>Mike Judge</h2>
+            </div>
+            <img class="card-user avatar avatar-small" src="images/mike_judge.jpg">
+            <div class="card-description">
               <p>"I came up with all these words which became the New York crew song, the whole framework of this band that wasn’t going to let people do this to us anymore. We weren’t going to be doormats. Because we’re being cool and nice doesn’t give you the right to walk on us."</p>
             </div>
-            <img class="card-user avatar avatar-large" src="images/mike_judge.jpg">
 
           </div>
         </div>
         <div class="col-xs-12 col-sm-3">
           <div class="card" style="background: linear-gradient(-225deg, rgba(64,64,64,0.9) 10%, rgba(0,0,0,0.6) 70%), url('images/dd.jpg');">
-            <div class="card-category">Crown Of Thornz / Skarhead</div>
-            <div class="card-description">
+            <div class="card-headers">
+              <div class="card-category">Crown Of Thornz / Skarhead</div>
               <h2>Danny Diablo</h2>
+            </div>
+            <img class="card-user avatar avatar-small" src="images/danny_diablo.jpg">
+            <div class="card-description">
               <p>"Graffiti was my first drug, it was like a high. I went to a place to bomb a train and anyone could attack me. I could get hit with a bat, I could get stabbed up or I could find someone and vick their shit or a cop could lock me up or beat me up then lock me up!"</p>
             </div>
-            <img class="card-user avatar avatar-large" src="images/danny_diablo.jpg">
 
           </div>
         </div>
@@ -144,9 +150,9 @@
     <h2>Send us a message</h2>
     <p></p>
     <form method="POST" action="http://formspree.io/stone4124@aol.com">
-      <input name="email" placeholder="Your email" type="email"><br>
-      <textarea name="message" placeholder="Your message"></textarea><br>
-      <button type="submit">Send</button>
+      <input name="email" placeholder="Your email" type="email" class="form-control">
+      <textarea name="message" placeholder="Your message" class="form-control"></textarea>
+      <button type="submit" class="btn btn-bann btn-lg">Send</button>
     </form>
   </div>
   <div id="footer">

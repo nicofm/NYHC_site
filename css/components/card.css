@@ -1,4 +1,5 @@
 .card {
+  padding: 10px;
   height: 250px;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   background-size: cover !important;
@@ -14,9 +15,7 @@
   top: 10px;
 }
 .card-category {
-  position: absolute;
-  top: 10px;
-  left: 10px;
+  z-index: 99999999;
   font-size: 20px;
 }
 .card-description {
@@ -63,4 +62,11 @@
   font-weight: lighter;
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: 2px;
+}
+
+.card-headers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
 }
