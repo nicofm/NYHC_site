@@ -40,3 +40,4 @@ var marker = new google.maps.Marker({
 
 You can pick a nice map theme on [Snazzy Maps](https://snazzymaps.com/) and replace the `[]` in the code above by the JavaScript Style Array you will copy on Snazzyp Maps.
 # pencilbros
+# thenewyorkhardcorechronicles
