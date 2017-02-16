@@ -14,7 +14,7 @@
 
 <body>
   <div class="banner" style="background: linear-gradient(-225deg, rgba(64,64,64,0.9) 10%, rgba(0,0,0,0.6) 70%), url('images/wallpaper_image.jpg');">
-    <img src="images/NYHC_logoWHITE.png" id="" ="logo" alt="" width="300">
+    <img src="images/NYHC_logoWHITE.png" id="" ="logo" alt="" width="200">
     <div class="banner-content">
       <h1>The NEW YORK HARDCORE CHRONICLES Film <br>
         a film by DREW STONE</h1>
@@ -22,7 +22,18 @@
       <!--button type="button" class="btn btn-bann btn-lg" data-toggle="modal" data-target=".bs-example-modal-lg">View the trailer</button>
 
       <!-- Button HTML (to Trigger Modal) -->
-      <a href="#myModal" class="btn btn-bann btn-lg" data-toggle="modal">View Trailer</a>
+      <a href="#myModal" id="trailerbut" id="trailerbut:hover" data-toggle="modal">View Trailer</a>
+
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="UUMMB8NC7D8XN">
+        <table>
+        <tr><td><input type="hidden" name="on0" value="($18 ticket, $2 service fee)">($18 ticket, $2 service fee)</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
+        </table>
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
+
 
       <!-- Modal HTML -->
       <div id="myModal" class="modal fade">
@@ -30,7 +41,6 @@
           <iframe width="560" height="315" src="https://www.youtube.com/embed/vvGnjFCVYSk" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
-
     </div>
   </div>
 
@@ -41,18 +51,40 @@
           <div class="icon-explanation">
             <img src="images/drew_stone.jpg" alt="" class="avatar">
             <h2>The Director</h2>
-            <p>Drew Stone is an American film director, producer, editor and musician. His works include music videos, commercials, documentary films and television...</p>
-            <button type="button" class="btn btn-default" data-toggle="modal" data-target="#director">Read more</button>
+            <p>Erase this text and make "The Director"the button to the modal</p>
+            <button type="button" data-toggle="modal" data-target="#director">The Director</button>
             <!-- Small modal -->
 
-            <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" id="director">
-              <div class="modal-dialog modal-sm" role="document">
+            <div class="modal fade b" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="director">
+              <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                   <h3 class="modal-title">
                     The director
-                  </h3>
+                  </h3><br>
+                  <br>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati mollitia nesciunt, natus accusantium ullam laboriosam, at nostrum dolores dignissimos eius, repellendus, eos asperiores animi distinctio.
+                    Drew Stone is an American film director, producer, editor and musician. His works include music videos, commercials, documentary films and television. He founded the New York City-based film production company Stone Films NYC and played an active role in the early stages of the American musical movement known as hardcore punk. He was the co-founder and lead singer of the hardcore bands The Mighty C.O.’s of Boston, Massachusetts and The High & The Mighty of New York. Stone is also known for his career as the front man for New York City’s Antidote since 1984. <br>
+                    <br>
+                    <strong>Early life</strong><br>
+                    A native New Yorker, Stone was born in Queens and raised in the Bronx. He grew up in and around the New York City film business and studied acting at Emerson College in Boston. His father, Arny Stone, was a filmmaker who won an Academy Award for his film, The Critic, starring Mel Brooks. Evan B. Stone, His brother is also a film director, editor and cinematographer, whose credits include CMT’s Guntucky, Syfy’s Destination Truth, CBS’s The Amazing Race, MTV True Life, and the Emmy Award winning Current TV.<br>
+                    <br>
+                    <strong>Film Career</strong><br>
+                    After working for years as a crew member on film sets in a variety of roles in 1992 Stone formed New York City-based film Production Company, Stone Films NYC. He produced numerous music videos including Run-DMC, Onyx, Type O Negative, Insane Clown Posse, King’s X, and Biohazard. He later went on to direct videos for Agnostic Front, Madball, Sub-Zero, and Garth “Culti” Vader. Joining forces with his brother Evan as “The Stone Brothers” he directed music videos for various artists including Vanilla Ice, and Channel Zero. He is a four-time X-Tremmy award winner with his Urban Street-Bike Warriors series of extreme sports films and director of the MTV True Life episode “I Live To Ride,” which exposed the new sport of street-bike freestyle to millions worldwide. In 2006 he created the Urban Street-Bike Warriors: Black Sheep Squadron Tour which made landmark stops in France, Poland, and Cuba.<br>
+                    <br>
+                    <strong>Musical Career</strong><br>
+                    In 1981 while attending Emerson College, Stone became heavily involved in the local Boston Hardcore music scene and became the lead singer of The Mighty C.O.’s. Upon returning to New York City in 1983 he formed The High & The Mighty and later joined Antidote. Antidote reformed in 2008 enjoying a resurgence in popularity due to a enthusiastic new generation discovering the “First wave” of American Hardcore. His contributions to the hardcore punk scene were documented in the book American Hardcore: A Tribal History by Steven Blush.<br>
+                    <br>
+                    <strong>Discography</strong><br>
+                    1984 – The High & the Mighty “Crunch On” Demo (Vocals)
+                    1989 – Antidote “Return 2 Burn” (Vocals) Metropolis Records
+                    1990 – Antidote “Viva Los Pendejos” (Vocals) Music For Nations
+                    1996 – Antidote / The High & The Mighty  “The A7 & Beyond” (Vocals) Grand Theft Audio
+                    1999 – Nucleus “F.T.W.” (Guitar, Vocals) Century Media
+                    2012 – Antidote “No Peace in our Time” (Vocals) Bridge Nine Records
+                    2014 – The High & The Mighty “Crunch On”  Radio Raheem Records<br>
+                    <br>
+                    <strong>xxx ALL AGES xxx The Boston Hardcore Film</strong><br>
+                    In 2009 Stone teamed with Gallery East owner Duane Lucia (Executive Producer) and Katie “The Kleening Lady” Goldman (Producer) and began production on xxx ALL AGES xxx: The Boston Hardcore Film. He directed and edited the documentary on the influential early Boston Hardcore scene which focuses on the aspect of the community and the culture. The film debuted at the International Film Festival Boston 2012 and was released on DVD in June of that year.
                   </p>
                 </div>
               </div>
@@ -64,23 +96,115 @@
           <div class="icon-explanation">
             <img src="images/NYHC_logo.png" alt="" class="avatar">
             <h2>The Movie</h2>
-            <p>Shot in an episodic formant the film contains over 60 interviews, never before seen footage, photos and a blazing soundtrack...</p>
-            <button type="button" class="btn btn-default">Read more</button>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="icon-explanation">
-            <img src="images/nyhc_flag_s.jpg" alt="" class="avatar">
-            <h2>Screening Dates</h2>
-            <p>The same, button and modal to info about NYHC.</p>
-            <button type="button" class="btn btn-default">Read more</button>
+            <p>remove this text</p>
+            <button type="button" data-toggle="modal" data-target="#movie">Read more</button>
+            <div class="modal fade b" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="movie">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <h3 class="modal-title">
+                    The Movie
+                  </h3><br>
+                  <br>
+                  <p>
+                    Director Drew Stone’s The New York Chronicles Film is an incredible journey thru the community and culture of the iconic New York hardcore scene. Not the typical history of a local music scene but so much more. Shot in an episodic formant the film contains over 60 interviews, never before seen footage, photos and a blazing soundtrack. With appearances by Roger Miret & Vinnie Stigma (Agnostic Front), Lou Koller, Craig Setari (Sick Of It All) Ray Cappo (Youth Of Today), Billy Graziadei (Biohazard), Billy Milano ( S.O.D. / M.O.D.) and Mike Judge (Judge). The film addresses the community, culture, straight edge and DIY ethic of the hardcore scene in the greatest city in the world that is still vibrant, relevant and going strong to this day. Buy the ticket and take the ride!
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
           <div class="icon-explanation">
             <img src="images/hand_mic2.jpg" alt="" class="avatar">
             <h2>Cast</h2>
-            <p>The same, button and modal with list of interviews and links.</p>
+            <p>remove this text</p>
+            <button type="button" data-toggle="modal" data-target="#cast">Read more</button>
+            <div class="modal fade b" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="cast">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <h3 class="modal-title">
+                    The Movie
+                  </h3><br>
+                  <br>
+                  <p>
+                    <strong>Cast in order of appearance</strong><br>
+
+                    Joe "Cuz" Cammarata (Black N' Blue Productions)<br>
+                    Laurens Kusters (Black N' Blue Productions / I Scream Records)<br>
+                    Chris Luftonovic (Rykers)<br>
+                    Roger Miret (Agnostic Front)<br>
+                    Vinnie Stigma (Agnostic Front)
+                    Todd Youth (Agnostic Front / Murphy's Law / Warzone)<br>
+                    James Drescher (Murphy's Law)<br>
+                    Kevin Crowley (The Abused)<br>
+                    Andrew Vacante (Impact / Vice)<br>
+                    Laurent Bizet (Hateful Crew)<br>
+                    Drew Stone (Director / Antidote)<br>
+                    Randall Underwood (Photographer)<br>
+                    Keith Burkhardt (Cause For Alarm)<br>
+                    Rob Kabula (Cause For Alarm / Agnostic Front)<br>
+                    Dito Montiel (Major Conflict)<br>
+                    Gavin Van Vlack (Absolution / Burn / N.Y. Hoods)<br>
+                    Robb Nunzio (Antidote / M.O.I.)<br>
+                    Ezec (Danny Diablo / Skarhead / Crown Of Thorns)<br>
+                    Louie Gesparro (Murphy's Law / Blitzpeer)<br>
+                    Sacha Jenkins (Journalist / Musician)<br>
+                    Chaka Malik (Burn / Orange 9mm)<br>
+                    Hoya (Madball / Dmize / Hazen St.)<br>
+                    MQ (Graffiti Legend)<br>
+                    Freddy Cricen (Madball / Hazen St.)<br>
+                    Skam Dust (Son Of Skam)<br>
+                    Steen Thompson (Just Seen Laughing / The Zero Point)<br>
+                    Marc MAD (European Booking Agent)<br>
+                    Bobby Hambil (Biohazard)<br>
+                    Gary Meskil (Crumbsuckers  / Pro-Pain)<br>
+                    Howie Abrams (Author / Record Exec. / D.J.)<br>
+                    Eddie Sutton (Leeway)<br>
+                    Harley Flanagan (Cro-mags  / M.O.I. / Harleys War)<br>
+                    Danny Lilker (Anthrax / S.O.D. / Nuclear Assault / Brutal Truth)<br>
+                    Billy Milano (The Psychos / S.O.D. / M.O.D.)<br>
+                    Billy Graziadei (Biohazard)<br>
+                    Kirk Hammett (Metallica)<br>
+                    Alex Kinon (Cause For Alarm / Agnostic Front)<br>
+                    Louie Beato (Carnivore / Agnostic Front)<br>
+                    John LaMacchia (Candiria)<br>
+                    RB Korbett (Even Worse)<br>
+                    Yana Chupenko (P.M.S. / Wench)<br>
+                    Danielle LaPage (Blood)<br>
+                    Marlo Mayhem (Apparition)<br>
+                    Brittany Mascia / Emily Muscara (The Straphangers)<br>
+                    Gina Pelle<br>
+                    Joanna Trumino<br>
+                    Anthony Diaz (Decimate The Living)<br>
+                    John Porcelly (Youth Of Today / Judge / Shelter)<br>
+                    Walter Schreifels (Youth Of Today / Gorilla Biscuits / Quicksand)<br>
+                    Mike Judge (Judge / Youth Of Today / Death Before Dishonor)<br>
+                    Ray Cappo (Youth Of Today / Shelter)<br>
+                    Anthony Civorelli (Gorilla Biscuits / Civ)<br>
+                    Richie Birkenhead (Youth Of Today / Underdog / Into Another)<br>
+                    Scott Ebanks<br>
+                    Craig Setari (Sick Of It All / Cro-mags / Agnostic Front / Rest In Pieces / Straight Ahead)<br>
+                    Danny Schuler (Biohazard)<br>
+                    Armand Majidi (Rest In Pieces / Straight Ahead / Sick Of It All)<br>
+                    Lou Koller (Sick Of It All)<br>
+                    Matt “Wildcard” Henderson (Madball / Agnostic Front)<br>
+                    Mike Gallo (Agnostic Front)<br>
+                    Bob Riley (Stigmata / Murderers Row)<br>
+                    Dan Seely (King Nine)<br>
+                    Sebastian Paba (Regulate)
+                    John Joseph (Cro-Mags / M.O.I. / Bloodclot)<br>
+                    James Drescher (Murphy’s Law)
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="icon-explanation">
+            <img src="images/rsz_tkt.png" alt="">
+            <h2>Screening Dates</h2>
+            <p>Remove this text</p>
             <button type="button" class="btn btn-default">Read more</button>
           </div>
         </div>
@@ -90,7 +214,7 @@
 
   <div class="wrapper-grey padded">
     <div class="container">
-      <h2 class="text-center">The Crew:</h2>
+      <h2 class="text-center"></h2>
       <div class="row">
         <div class="col-xs-12 col-sm-3">
           <div class="card" style="background: linear-gradient(-225deg, rgba(64,64,64,0.9) 10%, rgba(0,0,0,0.6) 70%), url('images/Agnostic_Front.jpg');">
@@ -146,7 +270,7 @@
     </div>
   </div>
 
-  <div class="text-center padded" id="newsletter">
+  <div class="text-center padded" id="newsletter" class="">
     <h2>Send us a message</h2>
     <p></p>
     <form method="POST" action="http://formspree.io/stone4124@aol.com">
@@ -168,7 +292,7 @@
           </ul>
         </div>
         <div class="col-xs-8 text-right">
-          <p>Made with <i class="fa fa-heart"></i> for Drew Stone by The IT Merchant 2017</p>
+          <p>Made with PMA for Drew Stone by The IT Merchant 2017</p>
         </div>
       </div>
     </div>

@@ -1,17 +1,4 @@
-.btn-bann {
-  /*background: rgb(235, 0, 126);*/
-  color: #fff;
-  background-color: grey;
-  color: rgb(0, 0, 0);
-  border: 2px solid rgb(0, 0, 0);
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-}
 
-.btn-bann:hover{
-  background-color: rgb(64, 64, 64);
-  color: white;
-}
 
 .icon-explanation {
   height: 325px;
@@ -20,3 +7,44 @@
   flex-direction: column;
   align-items: center;
 }
+
+#trailerbut {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 0;
+}
+
+#trailerbut:hover,
+#trailerbut:hover{
+  letter-spacing: 5px;
+}
+
+#trailerbut:hover,
+#trailerbut:hover {
+  backface-visibility: hidden;
+  border: 1px solid rgba(#fff, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 180ms ease-in-out;
+  width: 0;
+}
+
+#trailerbut:hover,
+#trailerbut:hover {
+  backface-visibility: hidden;
+  border-color: #fff;
+  transition: width 250ms ease-in-out;
+  width: 30%;
+}
+
+#trailerbut:hover {
+  bottom: auto;
+  top: 0;
+  width: 100%;
+}
+

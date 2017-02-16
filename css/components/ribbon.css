@@ -1,0 +1,25 @@
+body {
+  background: #f0f0f0;
+  font-family: 'IM Fell English SC', serif;
+}
+
+.cr {
+  width: 200px;
+  padding: 16px;
+  position: absolute;
+  text-align: center;
+  color: #f0f0f0;
+}
+
+.cr-sticky {
+  position: fixed;
+}
+
+.cr-left   { left: -50px; }
+
+.cr-top.cr-left,
+.cr-bottom.cr-right {
+  transform: rotate(-45deg);
+}
+
+.cr-black     { background-color: #333; }

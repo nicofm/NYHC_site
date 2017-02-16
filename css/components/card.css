@@ -33,7 +33,7 @@
   font-family: 'IM Fell English', serif;
   font-size: 15px;
   font-weight: lighter;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0);
   margin-bottom: 50px;
 }
 .card-link {
@@ -60,7 +60,7 @@
   font-family: 'IM Fell English', serif;
   font-size: 15px;
   font-weight: lighter;
-  color: rgba(255, 255, 255, 0.8);
+  color: white;
   margin-bottom: 2px;
 }
 
