@@ -27,9 +27,9 @@
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="float: right; position: relative; right: 150px;">
           <input type="hidden" name="cmd" value="_s-xclick">
           <input type="hidden" name="hosted_button_id" value="UUMMB8NC7D8XN">
-          <table>
+          <!--<table>
           <tr><td><input type="hidden" name="on0" value="($18 ticket, $2 service fee)"></td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
-          </table>
+          </table>-->
           <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
           <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
         </form>
@@ -55,7 +55,7 @@
             <img src="images/drew_stone.jpg" alt="" class="avatar">
             <h2 style="font-family: IM Fell English SC">The Director</h2>
             <p style="font-family: IM Fell English">Erase this text and make "The Director"the button to the modal</p>
-            <button type="button" data-toggle="modal" data-target="#director">The Director</button>
+            <button type="button" data-toggle="modal" data-target="#director" style="font-family: IM Fell English SC">The Director</button>
             <!-- Small modal -->
 
             <div class="modal fade b" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="director">
@@ -100,7 +100,7 @@
             <img src="images/NYHC_logo.png" alt="" class="avatar">
             <h2 style="font-family: IM Fell English SC">The Movie</h2>
             <p style="font-family: IM Fell English">remove this text</p>
-            <button type="button" data-toggle="modal" data-target="#movie">Read more</button>
+            <button type="button" data-toggle="modal" data-target="#movie" style="font-family: IM Fell English SC">Read more</button>
             <div class="modal fade b" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="movie">
               <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content" style="padding: 30px;">
@@ -121,10 +121,10 @@
             <img src="images/hand_mic2.jpg" alt="" class="avatar">
             <h2 style="font-family: IM Fell English SC">Cast</h2>
             <p style="font-family: IM Fell English">remove this text</p>
-            <button type="button" data-toggle="modal" data-target="#cast">Read more</button>
+            <button type="button" data-toggle="modal" data-target="#cast" style="font-family: IM Fell English SC">Read more</button>
             <div class="modal fade b" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="cast">
               <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content" style="padding: 30px;">
+                <div class="modal-content" style="padding: 30px; align-content: left">
                   <h3 class="modal-title" style="font-family: IM Fell English">
                     The Movie
                   </h3><br>
@@ -206,9 +206,32 @@
         <div class="col-xs-12 col-sm-6 col-md-3">
           <div class="icon-explanation">
             <img src="images/rsz_tkt.png" alt="">
-            <h2 style="font-family: IM Fell English SC">Screening Dates</h2>
+            <h2 style="font-family: IM Fell English SC">Press Release</h2>
             <p style="font-family: IM Fell English">Remove this text</p>
-            <button type="button" class="btn btn-default">Read more</button>
+            <button type="button" data-toggle="modal" data-target="#press" style="font-family: IM Fell English SC">Read more</button>
+            <div class="modal fade b" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="press">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content" style="padding: 30px;">
+                  <h3 class="modal-title" style="font-family: IM Fell English SC">
+                    Dr. Martens presents The New York Hardcore Chronicles Film world premiere.
+                  </h3><br>
+                  <br>
+                  <p style="font-family: IM Fell English">
+                    Friday May 19th at 7:00 pm at the SVA Theater in Manhattan (333 W 23rd St). After screening “Q & A” w/ director Drew Stone, Roger Miret (Agnostic Front), Lou Koller (Sick Of It All) & Mike Judge (Judge).
+
+                    The world premiere is taking place two nights before the Black N’ Blue Bowl at Webster Hall which features the reunited Rest In Pieces, Token Entry and many more. It is going to be a very special red carpet event with D.J. Frank Molina so come early and be a part of this unique evening. A limited amount of tickets (300) will be going on sale to the public on March 1st. at noon. DVD’s will be available at the screening with a free signed poster by the director. Post screening party at 2A in the lower east side starts at 11:30 pm.
+
+                    “I’m really looking forward to this film, as a fan of the hardcore genre / culture in general, and of course the special New York hardcore faction we’re all part of, “Said Freddy Cricien (Madball). “I go way back with Drew Stone - he actually filmed Madball’s very first video, and I consider him a friend. He has the credibility, the experience and most importantly - the passion to deliver something super authentic, which for me and I’m sure for a lot of other folks, is most important of all!”
+
+                    Look for The New York Hardcore Chronicles Film out on the road this summer.
+
+                    “NYHC Forever And Always”
+
+                    Drew Stone is an American film director, producer,writer, editor and musician. His works include music videos, commercials, documentary films and television. He founded New York City-based film production company Stone Films NYC and played an active role in the early stages of American Hardcore.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -274,12 +297,12 @@
   </div>
 
   <div class="text-center padded" id="newsletter" class="">
-    <h2>Send us a message</h2>
+    <h2 style="font-family: IM Fell English SC">Send us a message</h2>
     <p></p>
     <form method="POST" action="http://formspree.io/stone4124@aol.com">
-      <input name="email" placeholder="Your email" type="email" class="form-control">
-      <textarea name="message" placeholder="Your message" class="form-control"></textarea>
-      <button type="submit" class="btn btn-bann btn-lg">Send</button>
+      <input name="email" placeholder="Your email" type="email" class="form-control" style="font-family: IM Fell English">
+      <textarea name="message" placeholder="Your message" class="form-control" style="font-family: IM Fell English"></textarea>
+      <button type="submit" class="btn btn-bann btn-lg" style="font-family: IM Fell English">Send</button>
     </form>
   </div>
   <div id="footer">
@@ -295,7 +318,7 @@
           </ul>
         </div>
         <div class="col-xs-8 text-right">
-          <p>Made with PMA for Drew Stone by The IT Merchant 2017</p>
+          <p style="font-family: IM Fell English SC">Made with PMA for Drew Stone by The IT Merchant 2017</p>
         </div>
       </div>
     </div>
