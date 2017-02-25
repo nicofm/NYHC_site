@@ -20,6 +20,22 @@
   text-decoration:none !important;
 }
 
+.hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+}
+.hvr-glow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+}
+
+
 /*#trailerbut:hover,
 #trailerbut:hover{
   letter-spacing: 5px;
