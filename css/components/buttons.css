@@ -16,7 +16,11 @@
   letter-spacing: 0;
 }
 
-#trailerbut:hover,
+#trailerbut:hover {
+  text-decoration:none !important;
+}
+
+/*#trailerbut:hover,
 #trailerbut:hover{
   letter-spacing: 5px;
 }
@@ -46,5 +50,5 @@
   bottom: auto;
   top: 0;
   width: 100%;
-}
+}*/
 
