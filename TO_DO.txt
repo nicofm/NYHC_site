@@ -1,0 +1,7 @@
+When opening the site, a pop up with the movie poster
+player doesnt stop when clicking outside the video.
+logo behavior: Dr Martens logo behaves different in other displays... flexbox?
+button buy ticket world premiere--call to action> should add a "Buy Tickets" like "view trailer" to select ammount and pay on PayPal
+Add date and location of Premiere!!
+people can buy multiple tickets
+change buttons for avatars and and put effect on them: Fade effect hover on The director, Movie, Cast and 4th icon (TBD) that on click open the modal
