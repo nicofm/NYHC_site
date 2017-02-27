@@ -40,9 +40,10 @@
 
       <!-- Modal HTML -->
       <div id="myModal" class="modal fade">
-        <div class="modal-dialog">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/vvGnjFCVYSk" frameborder="0" allowfullscreen></iframe>
-        </div>
+        <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+          <div class="modal-dialog">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/vvGnjFCVYSk" frameborder="0" allowfullscreen></iframe>
+          </div>
       </div>
     </div>
   </div>
@@ -52,9 +53,9 @@
       <div class="extras">
         <div class="col-xs-12 col-sm-6 col-md-3">
           <div class="icon-explanation">
-            <img src="images/drew_stone.jpg" alt="" class="avatar">
+            <img src="images/drew.jpg" alt="" class="avatar" data-toggle="modal" data-target="#director">
             <h2 style="font-family: IM Fell English SC">The Director</h2>
-            <p style="font-family: IM Fell English">Erase this text and make "The Director"the button to the modal</p>
+            <p style="font-family: IM Fell English">The Director avatar with hover FADE effect opens the modal on click</p>
             <button type="button" data-toggle="modal" data-target="#director" style="font-family: IM Fell English SC">The Director</button>
             <!-- Small modal -->
 
@@ -118,7 +119,7 @@
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3">
           <div class="icon-explanation">
-            <img src="images/hand_mic2.jpg" alt="" class="avatar">
+            <img src="images/hand_mic_3.jpg" alt="" class="avatar">
             <h2 style="font-family: IM Fell English SC">Cast</h2>
             <p style="font-family: IM Fell English">remove this text</p>
             <button type="button" data-toggle="modal" data-target="#cast" style="font-family: IM Fell English SC">Read more</button>
